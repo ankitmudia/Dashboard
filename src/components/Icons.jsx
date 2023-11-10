@@ -11,6 +11,11 @@ import InputOutlinedIcon from "@mui/icons-material/InputOutlined";
 
 import ArrowRightOutlinedIcon from "@mui/icons-material/ArrowRightOutlined";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import PersonIcon from '@mui/icons-material/Person';
+import ContactsIcon from '@mui/icons-material/Contacts';
 
 export {
   HomeOutlinedIcon as HomeIcon,
@@ -25,4 +30,9 @@ export {
   InputOutlinedIcon as ModalIcon,
   ArrowBackIcon,
   ArrowRightOutlinedIcon as ArrowIcon,
+  DashboardIcon as DashboardIcon,
+  AccountBalanceWalletIcon as AccountBalanceWalletIcon,
+  AttachMoneyIcon as AttachMoneyIcon,
+  PersonIcon as PersonIcon,
+  ContactsIcon as ContactsIcon
 };

@@ -3,12 +3,11 @@ import {
   LayoutIcon,
   CalendarIcon,
   InvoiceIcon,
-  UserIcon,
-  RolesIcon,
-  PagesIcon,
-  AuthIcon,
-  WizardIcon,
-  ModalIcon,
+  DashboardIcon,
+  AccountBalanceWalletIcon,
+  AttachMoneyIcon,
+  PersonIcon,
+  ContactsIcon
 } from "./Icons";
 
 export const SIDEBAR_DATA = [
@@ -16,19 +15,19 @@ export const SIDEBAR_DATA = [
     id: 1,
     name: "dashboard",
     path: "dashboards",
-    icon: <HomeIcon />,
+    icon: <DashboardIcon />,
   },
   {
     id: 2,
     name: "accounts",
     path: "accounts",
-    icon: <LayoutIcon />,
+    icon: <AccountBalanceWalletIcon />,
   },
   {
     id: 3,
     name: "payroll",
     path: "payroll",
-    icon: <CalendarIcon />,
+    icon: <AttachMoneyIcon />,
   },
   {
     id: 4,
@@ -40,12 +39,12 @@ export const SIDEBAR_DATA = [
     id: 5,
     name: "advisor",
     path: "advisor",
-    icon: <InvoiceIcon />,
+    icon: <PersonIcon />,
   },
   {
     id: 6,
     name: "contacts",
     path: "contacts",
-    icon: <InvoiceIcon />,
+    icon: <ContactsIcon />,
   }
 ];

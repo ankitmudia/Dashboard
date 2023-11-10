@@ -43,7 +43,7 @@
 
 .checking-account-text2 {
     font-size: 1.25rem;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 @media(max-width: 768px) {
