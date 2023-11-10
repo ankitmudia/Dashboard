@@ -10,7 +10,7 @@ import {
 import { dummyData } from "..";
 
 const SidebarItems = ({ displaySidebar }) => {
-  const [activeItem, setActiveItem] = useState(0);
+  const [activeItem, setActiveItem] = useState(dummyData[0].id);
 
   return (
     <ItemsList>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // Children Component
 export const Children = styled.div`
-  width: 100%;
+  
   height: 100%;
   margin-left: ${({ displaySidebar }) => (displaySidebar ? "15rem" : "5rem")};
 
@@ -63,7 +63,7 @@ export const ItemsList = styled.ul`
 export const ItemContainer = styled.li`
   margin-top: 0.5rem;
   width: 100%;
-  padding: 0.5rem 0.25rem;
+  padding: 0.5rem 3rem;
   border-radius: 0.2rem;
   cursor: pointer;
 
@@ -72,20 +72,25 @@ export const ItemContainer = styled.li`
   }
 
   &.active {
-    background-color: #dbe4f3;
+    background-color: hsl(120deg 44.09% 49.8%);
   }
 `;
 
 export const ItemWrapper = styled.div`
   display: flex;
   align-items: center;
-  color: #7c7788;
+  color: black;
+  
+  &.active {
+    color: blue;
+  }
 `;
 
 export const ItemName = styled.span`
-  margin-left: ${({ displaySidebar }) => (displaySidebar ? "0.5rem" : "0")};
+  margin-left: ${({ displaySidebar }) => (displaySidebar ? "2rem" : "0")};
   display: ${({ displaySidebar }) => (displaySidebar ? "block" : "none")};
   text-transform: capitalize;
+  font-weight: bold;
 `;
 
 // Sidebar Container
@@ -94,13 +99,11 @@ export const SidebarContainer = styled.div`
   left: 0;
   width: ${({ displaySidebar }) => (displaySidebar ? "15rem" : "5rem")};
   height: 100vh;
-  padding: 0.75rem;
-  background: #f3f4f4;
+  padding: 0.75rem 0;
+  background: hsl(0deg 0% 100%);
   transition: width 350ms ease;
-  border-right: 1px solid #d4d8dd;
   overflow-x: hidden;
-  ${({ displaySidebar }) =>
-    displaySidebar && "box-shadow: 8px 0px 12px 0px rgba(0,0,0,0.1)"};
+  
 
   ${ItemWrapper} {
     justify-content: ${({ displaySidebar }) => !displaySidebar && "center"};

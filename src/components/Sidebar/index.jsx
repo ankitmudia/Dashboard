@@ -40,17 +40,17 @@ export default function Sidebar({ children }) {
                 displaySidebar={displaySidebar}
                 className="app__brand__text"
               >
-                Frest
+                ASSIDUUS
               </SidebarBrand>
             </SidebarLogo>
-            <SidebarToggler
+            {/* <SidebarToggler
               displaySidebar={displaySidebar}
               onClick={handleSidebarDisplay}
             >
               <div className="outer__circle">
                 <div className="inner__circle" />
               </div>
-            </SidebarToggler>
+            </SidebarToggler> */}
           </SidebarLogoWrapper>
           <SidebarItems displaySidebar={displaySidebar} />
         </SidebarWrapper>

@@ -1,0 +1,83 @@
+.custom-card-content {
+    display: flex;
+    gap: 5px;
+}
+
+@media(max-width: 1024px) {
+    .custom-card-content {
+        flex-direction: column;
+    }
+}
+
+.custom-card-content3 {
+    display: flex;
+    gap: 5px;
+}
+
+/* @media(max-width: 1024px) {
+    .custom-card-content3 {
+        flex-direction: column;
+    }
+} */
+
+.custom-select {
+    max-height: 30px;
+}
+
+@media(max-width: 1024px) {
+    .custom-select {
+        max-height: 18px;
+    }
+}
+
+.checking-account-text {
+    font-size: 1.25rem;
+    font-weight: bold !important;
+}
+
+@media(max-width: 768px) {
+    .checking-account-text {
+        font-size: 1rem; /* Adjust the font size as needed */
+    }
+}
+
+.checking-account-text2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+@media(max-width: 768px) {
+    .checking-account-text2 {
+        font-size: 0.8rem !important; /* Adjust the font size as needed */
+        /* line-height: 0 !important; */
+    }
+}
+
+.custom-button {
+    box-shadow: none !important;
+    height: 30px;
+    background-color: hsl(222.86, 84%, 95.1%) !important;
+    color: hsl(132.14, 39.25%, 58.04%) !important;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  @media(max-width: 768px) {
+    .custom-button {
+        font-size: 0.8rem !important; /* Adjust the font size as needed */
+        line-height: 0px !important;
+    }
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Adjust margin as needed */
+    border-radius: 5px;
+  }
+
+  .square-text {
+    height: 20px;
+    font-size: 15px;
+  }
